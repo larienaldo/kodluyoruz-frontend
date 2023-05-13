@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+body{
+   background-color: beige;
+  
+  
+}
+
+section{
+    padding: 3.5rem 7%;
+}
+.btn {
+    margin:0 2.3rem;
+    display: inline-block;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 30rem;
+    font-size: 1.6rem;
+    font-weight: 70rem;
+    height: 5.2rem;
+    min-width: 17.4rem;
+    color: #b4a303;
+    background-color: rgb(5, 4, 4);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+.btn:hover {
+    -webkit-box-shadow: 38px 48px 58px 0px rgba(142, 138, 0, 1);
+    -moz-box-shadow: 38px 48px 58px 0px rgba(142, 138, 0, 1);
+    box-shadow: 38px 48px 58px 0px rgba(142, 138, 0, 1);
+}
+
+.header {
+    font-size: 2rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20rem;
+    margin: 2rem 3%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar-fs a {
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: black;
+    border-bottom: 0.1rem solid transparent;
+}
+
+.header .navbar-fs .active,
+.header .navbar-fs a:hover {
+    border-color: brown;
+    padding-bottom: 0.5rem;
+}
+/*home start*/
+.home {
+    min-height: 100vh;
+    background-image: url(witcher.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -6.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   
+}
+.home .content {
+    max-width: 60rem;
+    align-items: center;
+    justify-content: center;
+}
+.home .content h1 {
+    font-size: 3.5rem;
+   font-weight: 700;
+   line-height: 1.5;
+   padding: 2rem;
+   margin: 2rem;
+   text-align: start;
+   line-height: 5.3rem;
+   
+
+
+
+}
+.content img {
+    display: block;
+    height: 30vh;
+    max-height: 280px;
+    min-height: 160px;
+}
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+.menu .box-container .box {
+    padding: 3rem;
+    background-color: #b4a303;
+    background-image: url(/witcher.jpg);
+    -webkit-background-clip: border-box;
+    
+    border-radius: 2rem;
+    min-height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.menu .box-container .box img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+    opacity: 0.9;
+   
+}
+.menu .box-container .box img:hover {
+    opacity: 5;
+    -webkit-box-shadow: 47px 37px 66px 0px rgba(50, 56, 109, 1);
+    -moz-box-shadow: 47px 37px 66px 0px rgba(50, 56, 109, 1);
+    box-shadow: 47px 37px 66px 0px rgba(50, 56, 109, 1);
+    border-radius: 5rem;
+ 
+}
+.menu .box-container .box h3 {
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+   
+
+/*home end*/
